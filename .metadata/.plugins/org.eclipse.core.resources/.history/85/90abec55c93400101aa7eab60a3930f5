@@ -1,0 +1,28 @@
+package com.tokenmanagement.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class HomeController {
+
+    @GetMapping("/")
+    public String home() {
+        return "index";
+    }
+
+    @GetMapping("/Hospital")
+    public String hospital() {
+        return "Hospital";
+    }
+
+    @GetMapping("/patient")
+    public String patient() {
+        return "patient";
+    }
+
+    @GetMapping("/Contact")
+    public String contact() {
+        return "Contact";
+    }
+}

@@ -1,0 +1,5 @@
+package com.tokenmanagement.entity;
+
+public class Contact {
+
+}

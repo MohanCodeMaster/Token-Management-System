@@ -1,0 +1,5 @@
+package com.tokenmanagement.repository;
+
+public class HospitalRepository {
+
+}

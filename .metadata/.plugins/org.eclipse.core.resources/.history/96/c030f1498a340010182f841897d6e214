@@ -1,0 +1,5 @@
+package com.tokenmanagement.controller;
+
+public class HospitalController {
+
+}
